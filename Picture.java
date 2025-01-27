@@ -38,10 +38,34 @@ public class Picture
     {
         if(!drawn) {
             face.changeColor("yellow");
-            face.moveHorizontal(-140);
+            face.moveHorizontal(-80);
             face.moveVertical(20);
             face.changeSize(120);
             face.makeVisible();
+            
+            eyeOne.changeColor("black");
+            eyeOne.moveHorizontal(-80);
+            eyeOne.moveVertical(30);
+            eyeOne.changeSize(20);
+            eyeOne.makeVisible();
+            
+            eyeTwo.changeColor("black");
+            eyeTwo.moveHorizontal(-140);
+            eyeTwo.moveVertical(30);
+            eyeTwo.changeSize(20);
+            eyeTwo.makeVisible();
+            
+            mouth.changeColor("black");
+            mouth.moveHorizontal(0);
+            mouth.moveVertical(80);
+            mouth.changeSize(-40, 40);
+            mouth.makeVisible();
+            
+            body.changeColor("black");
+            body.moveHorizontal(-140);
+            body.moveVertical(30);
+            body.changeSize(20);
+            body.makeVisible();
             
             drawn = true;
         }
