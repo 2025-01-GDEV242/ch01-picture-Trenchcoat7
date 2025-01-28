@@ -80,6 +80,7 @@ public class Picture
         eyeOne.changeColor("white");
         eyeTwo.changeColor("white");
         mouth.changeColor("white");
+        body.changeColor("black");
     }
 
     /**
@@ -91,5 +92,6 @@ public class Picture
         eyeOne.changeColor("black");
         eyeTwo.changeColor("black");
         mouth.changeColor("black");
+        body.changeColor("black");
     }
 }
