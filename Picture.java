@@ -37,6 +37,12 @@ public class Picture
     public void draw()
     {
         if(!drawn) {
+            body.changeColor("black");
+            body.moveHorizontal(-70);
+            body.moveVertical(40);
+            body.changeSize(60, 30);
+            body.makeVisible();
+            
             face.changeColor("yellow");
             face.moveHorizontal(-80);
             face.moveVertical(20);
@@ -60,12 +66,6 @@ public class Picture
             mouth.moveVertical(80);
             mouth.changeSize(-40, 40);
             mouth.makeVisible();
-            
-            body.changeColor("black");
-            body.moveHorizontal(-140);
-            body.moveVertical(30);
-            body.changeSize(20);
-            body.makeVisible();
             
             drawn = true;
         }
